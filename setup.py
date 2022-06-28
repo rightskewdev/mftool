@@ -15,7 +15,10 @@ setup(
     keywords="amfi, quote, mutual-funds, funds, bse, nse, market, stock, stocks",
     install_requires=['requests', 'bs4', 'httpx','pandas','yfinance'],
     url="https://github.com/rightskewdev/mftool",
-    packages=find_packages(),
+    packages=['mftool'],
+    package_dir={
+        'mftool': '.',
+    },
     long_description=long_description,
     long_description_content_type='text/markdown',
     package_data={'': ['*.json']}
