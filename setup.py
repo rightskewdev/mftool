@@ -14,7 +14,7 @@ setup(
     license="MIT",
     keywords="amfi, quote, mutual-funds, funds, bse, nse, market, stock, stocks",
     install_requires=['requests', 'bs4', 'httpx','pandas','yfinance'],
-    url="https://github.com/NayakwadiS/mftool",
+    url="https://github.com/rightskewdev/mftool",
     packages=find_packages(),
     long_description=long_description,
     long_description_content_type='text/markdown',
